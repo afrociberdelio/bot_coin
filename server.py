@@ -9,7 +9,6 @@ import os
 
 
 app = Flask(__name__)
-app.debug = True
 
 def write_json(data, filename='response.json'):
     with open(filename, 'w') as f:
@@ -75,4 +74,4 @@ def main():
     print(get_cmc_data('BTC'))
 
 if __name__ == '__main__':
-    app.run(port=8443)
+    app.run(debug=True, port=8443)
