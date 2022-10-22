@@ -132,3 +132,6 @@ dmypy.json
 response.json
 tokens.py
 app.old
+Procfile
+runtime.txt
+requirements.txt
