@@ -75,4 +75,4 @@ def main():
     print(get_cmc_data('BTC'))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=8443)
