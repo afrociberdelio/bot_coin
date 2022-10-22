@@ -3,7 +3,7 @@ import requests
 import json
 from flask import Flask
 from flask import request
-from flask.wrappers import Response
+from flask import Response
 import re
 import os
 
